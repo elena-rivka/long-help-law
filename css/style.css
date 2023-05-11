@@ -1,0 +1,221 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+  height: auto;
+  /* width: 100%; */
+  /* max-width: 100%; */
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  background-color: #fffdee;
+  color: #7a7a7a;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+}
+
+.container {
+  margin: 0 auto;
+  /* width: 100%; */
+  width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  outline: aqua solid;
+  margin-top: 80px;
+}
+
+.container-hed {
+  margin: 0 auto;
+  /* width: 100%; */
+  width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Шапка */
+.header {
+  padding-top: 28px;
+  padding-bottom: 28px;
+  position: absolute;
+  width: 100%;
+}
+
+.logo {
+  font-family: "Aclonica";
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 0.03em;
+
+  color: #f3c653;
+}
+
+.menu__link {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+
+  color: #f3c653;
+}
+.menu__link:hover,
+.menu__link:active {
+  color: #fffdee;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  gap: 115px;
+}
+
+/* Герой */
+
+.hero-bg {
+  background-image: linear-gradient(rgba(23, 9, 2, 0.85), rgba(23, 9, 2, 0.85)),
+    url(../img/1667350598_14-colodu-club-p-ofis-yurista-oboi-18.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 720px;
+
+  background-color: rgba(53, 53, 53, 0.8);
+}
+
+.hero__section {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.content__item {
+  display: flex;
+  gap: 21px;
+  align-items: center;
+}
+
+.content__item:not(:last-child) {
+  padding-bottom: 51px;
+}
+
+.content {
+  padding-left: 80px;
+}
+
+.content__txt {
+  width: 220px;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.content__svg {
+  fill: #f3c653;
+}
+
+/* Команда */
+
+.teams__title {
+  font-family: "Times New Roman", serif;
+  font-weight: 400;
+  font-size: 32px;
+
+  color: #b4b4b4;
+
+  padding-top: 40px;
+}
+
+.teams__gen-tit {
+  font-family: "Aclonica";
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 0.03em;
+
+  color: #494848;
+
+  padding-top: 26px;
+}
+
+.teams__txt-a {
+  width: 404px;
+  padding-top: 26px;
+}
+
+.teams__txt-b {
+  width: 404px;
+  padding-top: 26px;
+}
+
+.block-teams {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  background: #000000;
+  color: #ffffff;
+
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 24px;
+
+  border: 2px solid #f3c653;
+  border-radius: 2px;
+  min-width: 592px;
+  height: 64px;
+}
+
+.but-block {
+  text-align: center;
+}
+
+.teams__txt-c {
+  color: #c79002;
+  width: 207px;
+  padding-top: 145px;
+}
