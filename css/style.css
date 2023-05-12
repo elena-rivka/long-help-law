@@ -53,10 +53,10 @@ body {
   padding-left: 20px;
   padding-right: 20px;
 
-  /* outline: aqua solid; */
+  outline: aqua solid;
 }
 
-/* Хедер */
+/* ----------------Хедер ----------------*/
 
 .header {
   background-color: #1a1f2f;
@@ -141,7 +141,7 @@ body {
   margin-right: 192px;
 }
 
-/* Герой */
+/* -----------------Герой ------------------*/
 .hero__sec {
   background-color: #1a1f2f;
 }
@@ -201,7 +201,7 @@ body {
   width: 500px;
 }
 
-/* О компании */
+/* ------------------О компании----------------- */
 .about {
   padding-top: 96px;
   padding-bottom: 96px;
@@ -320,9 +320,8 @@ body {
   left: 395px;
 }
 
-/* Почему мы */
+/* ----------------Почему мы---------------- */
 .why {
-  /* background-color: #1a1f2f; */
   background-image: linear-gradient(
       rgba(26, 31, 47, 0.5),
       rgba(26, 31, 47, 0.5)
@@ -383,7 +382,7 @@ body {
   padding-bottom: 96px;
 }
 
-/* Форма + */
+/* -----------------Форма + -------------*/
 .form {
   padding-top: 89px;
   padding-bottom: 89px;
@@ -496,7 +495,7 @@ body {
   bottom: -20px;
 }
 
-/* Футтер */
+/* ----------------Футтер---------------- */
 .footer {
   background-color: #1a1f2f;
 }
@@ -555,4 +554,23 @@ body {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+/* -------------Команда--------------- */
+/* --------------Шапка--------------- */
+
+.header__team {
+  background-color: #fff;
+}
+
+.header__name--team {
+  color: #1a1f2f;
+}
+
+.header__dableN--team {
+  color: #1a1f2f;
+}
+
+.menu__link--team {
+  color: #1a1f2f;
 }
