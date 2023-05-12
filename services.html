@@ -43,18 +43,113 @@
               >
             </li>
             <li class="menu__list">
-              <a href="./team.html" class="menu__link--current link">Команда</a>
+              <a href="./team.html" class="menu__link menu__link--team link"
+                >Команда</a
+              >
             </li>
             <li class="menu__list">
-              <a href="./services.html" class="menu__link menu__link--team link"
+              <a
+                href="./services.html"
+                class="menu__link--current menu__link link"
                 >Услуги</a
               >
             </li>
           </ul>
-          <button type="button" class="button">СВЯЗАТЬСЯ С НАМИ</button>
+          <button type="button" class="button" data-modal-open>
+            СВЯЗАТЬСЯ С НАМИ
+          </button>
         </nav>
       </div>
     </header>
+
+    <!-- Услуги -->
+    <section class="services">
+      <div class="container">
+        <h1 class="title serv__tit">Услуги нашей компании</h1>
+        <ul class="serv__list list">
+          <li class="serv__li">
+            <svg class="serv__icon" width="64" height="64">
+              <use href="./img/sprit.svg#icon-icon-1-1"></use>
+            </svg>
+            <p class="serv__h3">Международный Арбитраж</p>
+            <p class="serv__txt">
+              Мы предоставляем полный спектр услуг по сопровождению
+              международных коммерческих арбитражных разбирательств от начала и
+              до конца.
+            </p>
+          </li>
+          <li class="serv__li">
+            <svg class="serv__icon" width="64" height="64">
+              <use href="./img/sprit.svg#icon-icon-2-1"></use>
+            </svg>
+            <p class="serv__h3">
+              Уголовное <br />
+              право
+            </p>
+            <p class="serv__txt">
+              Уголовно-правовая практика является одним из ключевых направлений
+              коллегии, а наши адвокаты специализируются на возврате средств в
+              результате мошенничества.
+            </p>
+          </li>
+          <li class="serv__li">
+            <svg class="serv__icon" width="64" height="64">
+              <use href="./img/sprit.svg#icon-icon-3-1"></use>
+            </svg>
+            <p class="serv__h3">
+              Разрешение <br />
+              Споров
+            </p>
+            <p class="serv__txt">
+              Мы оказываем всестороннюю поддержку клиента на досудебной стадии
+              спора, в процессе примирения сторон и в рамках рассмотрения дел в
+              арбитражных судах.
+            </p>
+          </li>
+          <li class="serv__li">
+            <svg class="serv__icon" width="64" height="64">
+              <use href="./img/sprit.svg#icon-icon-4-1"></use>
+            </svg>
+            <p class="serv__h3">
+              Корпоративное <br />
+              Право
+            </p>
+            <p class="serv__txt">
+              Мы осуществляем разрешение различных конфликтов с работодателем и
+              помогаем составлять трудовые договоры в соответствии с российским
+              законодательством.
+            </p>
+          </li>
+          <li class="serv__li">
+            <svg class="serv__icon" width="64" height="64">
+              <use href="./img/sprit.svg#icon-icon-5-1"></use>
+            </svg>
+            <p class="serv__h3">
+              Налоговое <br />
+              Право
+            </p>
+            <p class="serv__txt">
+              Когда предпринимателей без оснований привлекают к налоговой
+              ответственности - явление распространенное. Мы знаем, что делать,
+              чтобы защитить клиента!
+            </p>
+          </li>
+          <li class="serv__li">
+            <svg class="serv__icon" width="64" height="64">
+              <use href="./img/sprit.svg#icon-icon-6-1"></use>
+            </svg>
+            <p class="serv__h3">
+              Банковское <br />
+              Право
+            </p>
+            <p class="serv__txt">
+              Юристы компании «Империя Права» в совершенстве знают банковское
+              право и имеют огромный опыт защиты как банка, так и заемщика.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
 
     <!-- Футтер -->
     <footer class="footer">
@@ -125,5 +220,48 @@
         </p>
       </div>
     </footer>
+
+    <!-- Модальное окно is-hidden-->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal__close" data-modal-close>
+          <svg class="modal__icon" width="18" height="18">
+            <use href="./img/sprit.svg#icon-mob-close"></use>
+          </svg>
+        </button>
+        <p class="forma__tit">Консультация юриста</p>
+        <form class="forma__home" method="POST" action=".">
+          <input
+            type="text"
+            name="user-name"
+            id="user-name"
+            class="forma__input"
+            placeholder="Имя и Фамилия"
+            required
+          />
+          <input
+            type="tel"
+            name="user-tel"
+            id="user-tel"
+            class="forma__input"
+            placeholder="Телефон"
+            required
+          />
+          <input
+            type="email"
+            name="user-email"
+            id="user-email"
+            class="forma__input"
+            placeholder="E-mail"
+            required
+          />
+          <button type="submit" class="button forma__button">
+            Связаться с нами
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
