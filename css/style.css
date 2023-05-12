@@ -53,7 +53,7 @@ body {
   padding-left: 20px;
   padding-right: 20px;
 
-  outline: aqua solid;
+  /* outline: aqua solid; */
 }
 
 /* ----------------Хедер ----------------*/
@@ -573,4 +573,75 @@ body {
 
 .menu__link--team {
   color: #1a1f2f;
+}
+
+/* --------------Команда--------------- */
+
+.team {
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+}
+
+.team__tit {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+.team__list {
+  display: flex;
+  gap: 35px;
+}
+
+.team__li {
+  width: 250px;
+}
+
+.team__name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+
+  color: #7887a2;
+  padding-top: 20px;
+}
+
+.team__pos {
+  line-height: 1.3;
+
+  color: #3e3e3e;
+  padding-top: 11px;
+}
+
+.team__txt--acent {
+  color: #fa721c;
+}
+
+.team__txt {
+  padding-bottom: 31px;
+}
+
+.team__txt--one {
+  padding-bottom: 31px;
+}
+
+.team__all-t {
+  display: flex;
+  justify-content: space-between;
+
+  padding-bottom: 74px;
+}
+
+.team__two {
+  width: 442px;
+}
+
+.team__list--l {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  padding-bottom: 90px;
 }
