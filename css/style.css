@@ -53,8 +53,7 @@ body {
   padding-left: 20px;
   padding-right: 20px;
 
-  outline: aqua solid;
-  /* margin-top: 80px; */
+  /* outline: aqua solid; */
 }
 
 /* Хедер */
@@ -75,6 +74,9 @@ body {
   line-height: 1.3;
 
   color: #ffffff;
+}
+
+.head__N {
   margin-right: 144px;
 }
 
@@ -100,6 +102,7 @@ body {
 .button {
   font-weight: 400;
   font-size: 16px;
+  text-transform: uppercase;
 
   color: #ffffff;
   background: #fa721c;
@@ -215,6 +218,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
+  line-height: 1.3;
 
   color: #fa721c;
   text-transform: uppercase;
@@ -349,4 +353,173 @@ body {
 /* Форма + */
 .form {
   padding-top: 89px;
+  padding-bottom: 89px;
+  background-color: #e9e9e9;
+}
+
+.form__sub-title {
+  font-size: 32px;
+  line-height: 1.3;
+
+  color: #3e3e3e;
+  text-align: center;
+  padding-bottom: 67px;
+  padding-top: 34px;
+}
+
+.form__lit-tit {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.3;
+
+  color: #000000;
+  padding-bottom: 10px;
+}
+
+.form__li:not(:last-child) {
+  padding-bottom: 30px;
+}
+
+.form__li {
+  display: flex;
+  gap: 25px;
+}
+.form__li-img {
+  width: 30px;
+  height: 28px;
+}
+
+.form__bg {
+  position: relative;
+  width: 475px;
+  height: 540px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 17px;
+  padding: 38px 50px 64px 50px;
+  z-index: 2;
+}
+
+.forma__tit {
+  font-family: "Noto Serif";
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+
+  color: #7886a2;
+  padding-bottom: 35px;
+}
+
+.forma__input {
+  width: 100%;
+  height: 53px;
+
+  background: #e9e9e9;
+  border: 1px solid rgba(120, 134, 162, 0.22);
+  border-radius: 5px;
+  margin-bottom: 30px;
+
+  font-size: 16px;
+  padding: 17px 24px;
+}
+
+.forma__input::placeholder {
+  color: #3e3e3e;
+}
+
+.forma__button {
+  width: 100%;
+  height: 58px;
+  font-size: 20px;
+
+  margin-top: 25px;
+}
+
+.form__cont-all {
+  display: flex;
+  gap: 36px;
+}
+
+.form__cont-one {
+  padding-top: 124px;
+  position: relative;
+}
+
+.form__list {
+  width: 522px;
+  margin-left: 53px;
+}
+
+.form__rou {
+  position: absolute;
+  left: 95px;
+  top: 57px;
+  z-index: 1;
+}
+
+.form__rou-blue {
+  position: absolute;
+  left: 410px;
+  bottom: -20px;
+}
+
+/* Футтер */
+.footer {
+  background-color: #1a1f2f;
+}
+
+.footer_bl-logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer__txt {
+  font-size: 16px;
+  text-align: justify;
+
+  color: #7887a2;
+  padding-top: 35px;
+  width: 404px;
+}
+
+.footer__title {
+  font-family: "Noto Serif";
+  font-weight: 700;
+  line-height: 1.2;
+
+  color: #fa721c;
+  padding-bottom: 40px;
+}
+
+.footer__p {
+  font-size: 16px;
+  line-height: 1.2;
+
+  color: #7887a2;
+}
+
+.footer__li:not(:last-child) {
+  padding-bottom: 21px;
+}
+
+.footer_bl-all {
+  display: flex;
+  gap: 70px;
+  align-items: center;
+  padding-top: 75px;
+  padding-bottom: 75px;
+
+  border-bottom: 1px solid rgba(120, 134, 162, 0.56);
+}
+
+.footer__p-ac {
+  font-weight: 700;
+}
+
+.footer__copy {
+  font-size: 16px;
+  color: #7887a2;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
