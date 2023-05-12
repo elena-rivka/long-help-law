@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LAWYER'S HELP</title>
+    <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Aclonica&family=Montserrat:wght@300;400;500;600;700&family=Newsreader:wght@300;400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Roboto:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -23,193 +23,187 @@
   <body>
     <!-- Шапка -->
     <header class="header">
-      <div class="container-hed">
-        <nav class="header__nav header-container">
-          <a href="./index.html" class="logo link">LAWYER'S HELP</a>
+      <div class="container">
+        <nav class="header__nav">
+          <a href="./index.html" class="header__logo link">
+            <img src="./img/logo-w.png" alt="logo" class="logo" width="70"
+          /></a>
+          <div>
+            <span class="header__name">Закон & Порядок</span>
+            <p class="header__dableN">ЮРИДИЧЕСКАЯ КОМПАНИЯ</p>
+          </div>
           <ul class="menu list">
-            <li class="menu__item">
-              <a href="" class="menu__link link">Услуги компании</a>
+            <li class="menu__list">
+              <a href="." class="menu__link--current link">Главная</a>
             </li>
-            <li class="menu__item">
-              <a href="" class="menu__link link">Наша команда</a>
+            <li class="menu__list">
+              <a href="." class="menu__link link">Команда</a>
+            </li>
+            <li class="menu__list">
+              <a href="." class="menu__link link">Услуги</a>
             </li>
           </ul>
+          <button type="button" class="button">СВЯЗАТЬСЯ С НАМИ</button>
         </nav>
       </div>
     </header>
     <!-- Герой -->
     <main>
-      <div class="hero-bg">
-        <section class="hero__section">
-          <ul class="content">
-            <li class="content__item">
-              <svg class="content__svg" width="30" height="31">
-                <use href="./img/symbol-defs.svg#icon-phone"></use>
-              </svg>
-              <p class="content__txt">
-                Предоставляем квалифицированную консультацию
-              </p>
-            </li>
-            <li class="content__item">
-              <svg class="content__svg" width="30" height="31">
-                <use href="./img/symbol-defs.svg#icon-user-tie"></use>
-              </svg>
-              <p class="content__txt">Оказываем помощь в решении проблем</p>
-            </li>
-            <li class="content__item">
-              <svg class="content__svg" width="30" height="31">
-                <use href="./img/symbol-defs.svg#icon-coin-dollar"></use>
-              </svg>
-              <p class="content__txt">
-                Поможем вернуть средства без предоплаты
-              </p>
-            </li>
-          </ul>
-          <img
-            src="./img/IMG_0953.png"
-            alt="девушка юрист"
-            width="486"
-            height="670"
-          />
-        </section>
-      </div>
-
-      <!-- Команда -->
-      <section class="teams__section">
+      <section class="hero__sec">
         <div class="container">
-          <div class="block-teams">
-            <div>
-              <h2 class="teams__title">Наша команда</h2>
-              <h1 class="teams__gen-tit">LAWYER'S HELP</h1>
-              <p class="teams__txt-a">
-                Добро пожаловать в нашу юридическую компанию, специализирующуюся
-                на возврате денег, украденных мошенниками. Наша компания
-                работает без предоплаты, поэтому вы можете быть уверены в том,
-                что наши специалисты будут нацелены только на то, чтобы вернуть
-                вам ваши деньги.
+          <div class="hero_cont main-content">
+            <div class="hero__text">
+              <h1 class="hero__title">Мы защищаем Ваши права</h1>
+              <p class="hero__p">
+                Современная юридическая компания, предоставляющая полный спектр
+                правовых услуг во всех регионах России, странах СНГ и за
+                рубежом.
               </p>
-              <p class="teams__txt-b">
-                Мы готовы взять на себя все необходимые действия, включая
-                общение с банками, судебными и правоохранительными органами,
-                чтобы обеспечить эффективный и быстрый возврат ваших денег.
+              <p class="hero__pp">
+                Наша цель — предоставление профессиональных юридических услуг с
+                максимальной выгодой для наших клиентов.
               </p>
+              <button type="button" class="button-dark">УЗНАТЬ БОЛЬШЕ</button>
             </div>
             <div>
-              <img
-                src="./img/IMG_0960-scaled.jpeg"
-                alt="команда"
-                width="622"
-                height="414"
-              />
+              <div class="col-lg-6 order-lg-1">
+                <video
+                  autoplay=""
+                  loop=""
+                  muted=""
+                  playsinline=""
+                  class="main-planet video d-none d-lg-block"
+                  src="https://api.aronovlaw.ru/uploads/planet_new_fd0aa193a8.mp4"
+                ></video>
+              </div>
             </div>
-          </div>
-
-          <p class="teams__txt-c">
-            Мы гарантируем индивидуальный подход к каждому клиенту,
-            профессиональную юридическую помощь и полную конфиденциальность.
-            Обратившись к нам, вы получите высококачественный сервис и
-            уверенность в том, что ваша проблема будет решена в кратчайшие
-            сроки.
-          </p>
-          <div class="but-block">
-            <button type="button" class="button">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button>
           </div>
         </div>
       </section>
-
-      <!-- Услуги -->
-      <section class="services__section">
+      <!-- О компании -->
+      <section class="about">
         <div class="container">
-          <h2 class="services__title">УСЛУГИ КОМПАНИИ</h2>
-          <p class="services__txt">
-            Потеряли деньги из-за мошенников? Не отчаивайтесь! Мы - юридическая
-            компания, которая поможет вернуть вам ваши потерянные деньги.
+          <div class="two">
+            <div class="about__block-one">
+              <img
+                src="./img/image-section-06-min 1.png"
+                alt="эффект"
+                width="100"
+                class="about__effect"
+              />
+              <img
+                src="./img/OffisRoom.jpg"
+                alt="офис компании"
+                width="480"
+                class="about__img"
+              />
+              <div class="block__little">
+                <p class="about__little">
+                  <span class="about-accent">460 +</span> УСПЕШНЫХ ПРОЕКТОВ
+                </p>
+                <p class="about__little about__little--accent">
+                  <span class="about-accent">98%</span> ДОВОЛЬНЫХ КЛИЕНТОВ
+                </p>
+              </div>
+            </div>
+            <div class="about__block-two">
+              <h2 class="title title-pluse">О нашей компании</h2>
+              <p class="about__txt">
+                Юридическая компания «Закон & Порядок» — российская юридическая
+                компания (основана в 2019 году), имеющая команду юристов,
+                зарекомендовавших себя экспертами в различных отраслях права.
+              </p>
+              <p class="about__txt-one">
+                Опыт и квалификация наших специалистов позволяют успешно
+                предоставлять помощь гражданам по решению арбитражных,
+                налоговых, уголовных и банковских споров.
+              </p>
+              <p class="about__txt-two">
+                Мы боремся за победу и добиваемся успеха, потому что мы несем
+                ответственность за дела наших клиентов и наша репутация имеет
+                первостепенное значение.
+              </p>
+              <ul class="about__list list">
+                <li class="about-li">
+                  <svg class="benefits__icon" width="20" height="20">
+                    <use href="./img/sprit.svg#icon-1"></use></svg
+                  >Эффективность
+                </li>
+                <li class="about-li">
+                  <svg class="benefits__icon" width="20" height="20">
+                    <use href="./img/sprit.svg#icon-1"></use></svg
+                  >Оперативность
+                </li>
+                <li class="about-li">
+                  <svg class="benefits__icon" width="20" height="20">
+                    <use href="./img/sprit.svg#icon-1"></use></svg
+                  >Конфиденциальность
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Почему мы -->
+      <section class="why">
+        <div class="container">
+          <h2 class="title why__title">Почему стоит выбрать нас?</h2>
+          <p class="why__text">
+            Клиенты, обратившиеся к нам за помощью, могут быть уверены, что им
+            будут оказаны квалифицированные услуги, в которых они действительно
+            нуждаются. С каждым клиентом обязательно подписывается договор,
+            который является гарантией для доверителя. <br />
+            Репутация и честное отношение – наше основное кредо.
           </p>
-          <ul class="serv list">
-            <li class="serv__item">
-              <img
-                src="./img/forex.jpg"
-                alt="forex"
-                width="254"
-                class="serv__img"
-              />
-              <h3 class="serv__title">Форекс мошенники</h3>
-              <p class="serv__txt">
-                Возврат средств от инвестиционных компаний, а так же биржевых и
-                Forex брокеров.
+          <ul class="why__list list">
+            <li class="why__li">
+              <h3 class="why__tit">Комплексный подход</h3>
+              <p class="why__det">
+                Комплекс знаний профессиональных юристов, дают возможность
+                оперативно и правильно провести анализ ситуации.
               </p>
-              <button type="button" class="serv__btn">Узнать больше</button>
+              <img
+                src="./img/business-team.jpg"
+                alt="офис"
+                width="300"
+                class="why__img"
+              />
             </li>
-            <li>
-              <img
-                src="./img/any.jpg"
-                alt="any"
-                width="254"
-                class="serv__img"
-              />
-              <h3 class="serv__title">Any desk и Team Viewer</h3>
-              <p class="serv__txt">
-                Поможем вам если деньги были украденные с помощью программного
-                обеспечения для удаленного рабочего места.
+            <li class="why__li">
+              <h3 class="why__tit">Годы практики</h3>
+              <p class="why__det why__det--ac">
+                Все наши специалисты имеют большой опыт юридической практики и
+                сотни выигранных судебных споров.
               </p>
-              <button type="button" class="serv__btn">Узнать больше</button>
+              <img
+                src="./img/woman-works.jpg"
+                alt="офис"
+                width="300"
+                class="why__img"
+              />
             </li>
-            <li>
-              <img
-                src="./img/bitcoin.jpg"
-                alt="btc"
-                width="254"
-                class="serv__img"
-              />
-              <h3 class="serv__title">Bitcoin и Blockhain аферы</h3>
-              <p class="serv__txt">
-                Поиск украденой криптовалюты, разблокировка крипто счетов и
-                запрос на компенсацию токенов.
+            <li class="why__li">
+              <h3 class="why__tit">Результат</h3>
+              <p class="why__det">
+                Доводим дела и судебные разбирательства до конца. Оказываем Вам
+                реальную помощь в решении правовых задач.
               </p>
-              <button type="button" class="serv__btn">Узнать больше</button>
+              <img
+                src="./img/business-strategy.jpg"
+                alt="офис"
+                width="300"
+                class="why__img"
+              />
             </li>
           </ul>
         </div>
       </section>
-
       <!-- Форма+ -->
-      <section class="form__section">
-        <h2 class="form__title">
-          Ваши интересы защищает команда практикующих юристов
-        </h2>
-        <ul>
-          <li>
-            <p>
-              <span class="txt__accent"> 1. </span> Вы занимаетесь своим делами,
-              мы — вашими юридическими спорами.
-            </p>
-          </li>
-          <li>
-            <p>
-              <span class="txt__accent"> 2. </span> Еженедельно информируем вас
-              о каждом этапе ведения дела.
-            </p>
-          </li>
-          <li>
-            <p>
-              <span class="txt__accent"> 3. </span> Наш приоритет работы —
-              полное решение вашей проблемы с минимальными издержками.
-            </p>
-          </li>
-        </ul>
+      <section class="form">
+        <div class="container">
+          <h2 class="title">Нужна юридическая помощь?</h2>
+        </div>
       </section>
     </main>
-    <footer class="footer">
-      <div class="container">
-        <a href="./index.html" class="logo link">LAWYER'S HELP</a>
-        <ul class="footer__menu list">
-          <li class="footer__item"><a href="" class="link">Главная</a></li>
-          <li class="footer__item"><a href="" class="link">Наша команда</a></li>
-          <li class="footer__item"><a href="" class="link">Наши услуги</a></li>
-        </ul>
-      </div>
-    </footer>
-
-    <script src="./js/slider.js"></script>
   </body>
 </html>
