@@ -1,0 +1,45 @@
+.header {
+    background-color: var(--bg-dark-color);
+}
+
+.head__N {
+    margin-right: 144px;
+}
+
+.menu__link {
+    font-size: 16px;
+
+    color: var(--white-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+            color: var(--accent-color);
+        }
+}
+
+.menu__link--current {
+    font-weight: 700;
+    font-size: 16px;
+
+    color: var(--accent-color);
+}
+
+.but__a {
+    display: flex;
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(120, 134, 162, 0.56);
+}
+
+.menu {
+    display: flex;
+    gap: 54px;
+    margin-right: 192px;
+}

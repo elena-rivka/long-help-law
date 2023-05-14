@@ -1,0 +1,60 @@
+.why {
+    background-image: linear-gradient(rgba(26, 31, 47, 0.5),
+            rgba(26, 31, 47, 0.5)),
+        url(../img/image-section-20-min\ 2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.why__title {
+    padding-top: 75px;
+}
+
+.why__text {
+    text-align: justify;
+
+    color: var(--white-color);
+    padding-top: 47px;
+}
+
+.why__tit {
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+
+    color: var(--button-color);
+    padding-bottom: 20px;
+}
+
+.why__det {
+    font-size: 16px;
+    text-align: justify;
+    padding-bottom: 20px;
+
+    color: var(--txt-lit-color);
+}
+
+.why__det--ac {
+    padding-bottom: 47px;
+}
+
+.why__img {
+    border-radius: 17px;
+}
+
+.why__img--ac {
+    padding-top: 23px;
+}
+
+.why__list {
+    display: flex;
+    gap: 105px;
+    padding-top: 60px;
+}
+
+.why__li {
+    width: 300px;
+    padding-bottom: 96px;
+}

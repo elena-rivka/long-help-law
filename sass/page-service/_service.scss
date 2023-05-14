@@ -1,0 +1,46 @@
+.services {
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.serv__h3 {
+    font-family: "Noto Serif";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+
+    color: var(--button-color);
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.serv__txt {
+    text-align: justify;
+}
+
+.serv__icon {
+    fill: var(--txt-lit-color);
+}
+
+.serv__tit {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.serv__li {
+    width: 320px;
+    text-align: center;
+}
+
+.serv__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 75px;
+
+    padding-bottom: 90px;
+}

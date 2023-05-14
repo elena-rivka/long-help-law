@@ -1,0 +1,16 @@
+body {
+    background-color: var(--bg-white-color);
+    color: var(--txt-color);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}

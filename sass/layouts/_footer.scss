@@ -1,0 +1,59 @@
+.footer {
+    background-color: var(--bg-dark-color);
+}
+
+.footer_bl-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer__txt {
+    font-size: 16px;
+    text-align: justify;
+
+    color: var(--txt-lit-color);
+    padding-top: 35px;
+    width: 404px;
+}
+
+.footer__title {
+    font-family: "Noto Serif";
+    font-weight: 700;
+    line-height: 1.2;
+
+    color: var(--button-color);
+    padding-bottom: 40px;
+}
+
+.footer__p {
+    font-size: 16px;
+    line-height: 1.2;
+
+    color: var(--txt-lit-color);
+}
+
+.footer__li:not(:last-child) {
+    padding-bottom: 21px;
+}
+
+.footer_bl-all {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+
+    border-bottom: 1px solid rgba(120, 134, 162, 0.56);
+}
+
+.footer__p-ac {
+    font-weight: 700;
+}
+
+.footer__copy {
+    font-size: 16px;
+    color: var(--txt-lit-color);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

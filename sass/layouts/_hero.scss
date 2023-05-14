@@ -1,0 +1,61 @@
+.hero__sec {
+    background-color: var(--bg-dark-color);
+}
+
+.hero__title {
+    font-family: "Noto Serif";
+    font-weight: 700;
+    font-size: 32px;
+
+    color: var(--button-color);
+    margin-bottom: 49px;
+}
+
+.hero__p {
+    color: var(--white-color);
+    margin-bottom: 30px;
+}
+
+.hero__pp {
+    color: var(--white-color);
+    margin-bottom: 79px;
+}
+
+.button-dark {
+    font-size: 16px;
+
+    color: var(--button-color);
+    background: rgba(120, 134, 162, 0.56);
+    border-radius: 23px;
+    border: none;
+    padding: 11px 23px;
+    width: 180px;
+    height: 41px;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+            background-color: rgba(107, 142, 210, 0.56);
+        }
+}
+
+
+.hero_cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 45px;
+}
+
+.hero__text {
+    width: 610px;
+}
+
+.main-content .main-planet.video {
+    height: auto;
+    margin-left: auto;
+    mix-blend-mode: screen;
+    width: 500px;
+}
