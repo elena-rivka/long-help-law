@@ -573,7 +573,7 @@ body {
   mix-blend-mode: screen;
   width: 250px;
   position: absolute;
-  top: 25%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -889,7 +889,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .form__sub-title {
-    text-align: left;
+    text-align: center;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -897,6 +897,7 @@ body {
     padding-bottom: 67px;
     padding-top: 34px;
     font-size: 32px;
+    text-align: center;
   }
 }
 
