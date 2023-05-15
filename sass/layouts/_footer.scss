@@ -8,14 +8,11 @@
 }
 
 .footer__txt {
-    // font-size: 16px;
     font-size: 12px;
     text-align: justify;
 
     color: var(--txt-lit-color);
-    // padding-top: 35px;
     padding-top: 22px;
-    // width: 404px;
     width: 100%;
 
     @include desktop {
@@ -31,7 +28,6 @@ width: 404px;
     line-height: 1.2;
 
     color: var(--button-color);
-    // padding-bottom: 40px;
     padding-bottom: 20px;
     font-size: 18px;
 
@@ -42,7 +38,6 @@ width: 404px;
 }
 
 .footer__p {
-    // font-size: 16px;
     font-size: 14px;
     line-height: 1.2;
 
@@ -54,7 +49,6 @@ width: 404px;
 }
 
 .footer__li:not(:last-child) {
-    // padding-bottom: 21px;
     padding-bottom: 10px;
 
     @include desktop {
@@ -64,11 +58,8 @@ width: 404px;
 
 .footer_bl-all {
     display: flex;
-    // gap: 70px;
     gap: 30px;
     align-items: center;
-    // padding-top: 75px;
-    // padding-bottom: 75px;
     padding-top: 60px;
     padding-bottom: 40px;
     flex-wrap: wrap;
@@ -88,12 +79,9 @@ width: 404px;
 }
 
 .footer__copy {
-    // font-size: 16px;
     font-size: 13px;
     color: var(--txt-lit-color);
     text-align: center;
-    // padding-top: 50px;
-    // padding-bottom: 50px;
 
     padding-top: 30px;
     padding-bottom: 30px;

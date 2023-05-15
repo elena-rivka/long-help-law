@@ -5,10 +5,8 @@
 .hero__title {
     font-family: "Noto Serif";
     font-weight: 700;
-    // font-size: 32px;
 
     color: var(--button-color);
-    // margin-bottom: 49px;
     margin-bottom: 26px;
 
     font-size: 24px;
@@ -30,7 +28,6 @@
 
 .hero__p {
     color: var(--white-color);
-    // margin-bottom: 30px;
 
     font-size: 14px;
     margin-bottom: 16px;
@@ -48,7 +45,6 @@
 
 .hero__pp {
     color: var(--white-color);
-    // margin-bottom: 79px;
 
     font-size: 14px;
     margin-bottom: 35px;
@@ -69,7 +65,7 @@
     background: rgba(120, 134, 162, 0.56);
     border-radius: 23px;
     border: none;
-    // padding: 11px 23px;
+
     padding: 8px 23px;
     width: 180px;
     height: 41px;
@@ -89,7 +85,6 @@
     align-items: center;
     justify-content: space-between;
     padding-top: 80px;
-    // padding-bottom: 45px;
     padding-bottom: 60px;
 
     @include tablet {
@@ -109,7 +104,6 @@
     height: auto;
     margin-left: auto;
     mix-blend-mode: screen;
-    // width: 500px;
     width: 250px;
     position: absolute;
     top: 25%;
