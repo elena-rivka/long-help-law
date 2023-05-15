@@ -9,17 +9,31 @@
 .serv__h3 {
     font-family: "Noto Serif";
     font-weight: 700;
-    font-size: 24px;
+    // font-size: 24px;
+    font-size: 20px;
     line-height: 1.2;
 
     color: var(--button-color);
 
-    padding-top: 20px;
-    padding-bottom: 20px;
+    // padding-top: 20px;
+    // padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    @include desktop {
+        font-size: 24px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }
 
 .serv__txt {
     text-align: justify;
+    font-size: 14px;
+
+    @include desktop {
+        font-size: 20px;
+    }
 }
 
 .serv__icon {
@@ -28,8 +42,15 @@
 
 .serv__tit {
     text-align: center;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    // padding-top: 70px;
+    // padding-bottom: 70px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+
+    @include desktop {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
 }
 
 .serv__li {
@@ -40,7 +61,15 @@
 .serv__list {
     display: flex;
     flex-wrap: wrap;
-    gap: 75px;
+    // gap: 75px;
+    gap: 30px;
 
-    padding-bottom: 90px;
+    // padding-bottom: 90px;
+    padding-bottom: 60px;
+    justify-content: center;
+
+    @include desktop {
+        gap: 75px;
+        padding-bottom: 90px;
+    }
 }

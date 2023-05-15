@@ -2,6 +2,14 @@
     background-color: var(--white-color);
 }
 
+.btn__ts {
+    display: none;
+
+    @include desktop {
+        display: block;
+    }
+}
+
 .header__name--team {
     color: var(--bg-dark-color);
 }

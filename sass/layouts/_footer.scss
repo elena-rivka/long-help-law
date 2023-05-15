@@ -8,12 +8,21 @@
 }
 
 .footer__txt {
-    font-size: 16px;
+    // font-size: 16px;
+    font-size: 12px;
     text-align: justify;
 
     color: var(--txt-lit-color);
-    padding-top: 35px;
-    width: 404px;
+    // padding-top: 35px;
+    padding-top: 22px;
+    // width: 404px;
+    width: 100%;
+
+    @include desktop {
+font-size: 16px;
+padding-top: 35px;
+width: 404px;
+    }
 }
 
 .footer__title {
@@ -22,28 +31,56 @@
     line-height: 1.2;
 
     color: var(--button-color);
-    padding-bottom: 40px;
+    // padding-bottom: 40px;
+    padding-bottom: 20px;
+    font-size: 18px;
+
+    @include desktop {
+        font-size: 20px;
+        padding-bottom: 40px;
+    }
 }
 
 .footer__p {
-    font-size: 16px;
+    // font-size: 16px;
+    font-size: 14px;
     line-height: 1.2;
 
     color: var(--txt-lit-color);
+
+    @include desktop {
+        font-size: 16px;
+    }
 }
 
 .footer__li:not(:last-child) {
+    // padding-bottom: 21px;
+    padding-bottom: 10px;
+
+    @include desktop {
     padding-bottom: 21px;
+    }
 }
 
 .footer_bl-all {
     display: flex;
-    gap: 70px;
+    // gap: 70px;
+    gap: 30px;
     align-items: center;
-    padding-top: 75px;
-    padding-bottom: 75px;
+    // padding-top: 75px;
+    // padding-bottom: 75px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    flex-wrap: wrap;
 
     border-bottom: 1px solid rgba(120, 134, 162, 0.56);
+
+    @include desktop {
+        padding-top: 75px;
+        padding-bottom: 75px;
+        flex-wrap: nowrap;
+        gap: 110px;
+    }
 }
 
 .footer__p-ac {
@@ -51,9 +88,23 @@
 }
 
 .footer__copy {
-    font-size: 16px;
+    // font-size: 16px;
+    font-size: 13px;
     color: var(--txt-lit-color);
     text-align: center;
+    // padding-top: 50px;
+    // padding-bottom: 50px;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    @include desktop {
     padding-top: 50px;
     padding-bottom: 50px;
+    font-size: 16px;
+    }
+}
+
+.head_logo_mar {
+    margin-right: 20px;
 }

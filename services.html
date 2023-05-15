@@ -25,16 +25,22 @@
     <header class="header header__team">
       <div class="container">
         <nav class="header__nav">
-          <a href="./index.html" class="header__logo link">
-            <img src="./img/logo-darck.png" alt="logo" class="logo" width="70"
-          /></a>
-          <div>
-            <span class="header__name header__name--team head__N"
-              >Империя Права</span
-            >
-            <p class="header__dableN header__dableN--team">
-              ЮРИДИЧЕСКАЯ КОМПАНИЯ
-            </p>
+          <div class="logo__head">
+            <a href="./index.html" class="header__logo link">
+              <img
+                src="./img/logo-darck.png"
+                alt="logo"
+                class="logo"
+                width="70"
+            /></a>
+            <div>
+              <span class="header__name header__name--team head__N"
+                >Империя Права</span
+              >
+              <p class="header__dableN header__dableN--team">
+                ЮРИДИЧЕСКАЯ КОМПАНИЯ
+              </p>
+            </div>
           </div>
           <ul class="menu list">
             <li class="menu__list">
@@ -55,10 +61,57 @@
               >
             </li>
           </ul>
-          <button type="button" class="button" data-modal-open>
+          <button type="button" class="button btn__ts" data-modal-open>
             СВЯЗАТЬСЯ С НАМИ
           </button>
+          <!-- Кнопка моб. меню -->
+          <button type="button" class="mob-btn" data-menu-open>
+            <svg class="mob-btn__icon" width="40" height="40">
+              <use href="./img/sprit.svg#icon-menu-mob"></use>
+            </svg>
+          </button>
         </nav>
+      </div>
+      <!-- Мобільне меню -->
+      <div class="mob-menu is-hidden" data-menu>
+        <div class="mob-container">
+          <div class="mob__top">
+            <button type="button" class="mob-menu__btn-close" data-menu-close>
+              <svg class="mob-menu__icon" width="40" height="40">
+                <use href="./img/sprit.svg#icon-mob-close"></use>
+              </svg>
+            </button>
+            <ul class="mob-menu__list list">
+              <li class="mob-menu__item">
+                <a class="mob-menu__link link" href="./index.html">Главная</a>
+              </li>
+              <li class="mob-menu__item">
+                <a class="mob-menu__link link" href="./team.html">Команда</a>
+              </li>
+              <li class="mob-menu__item">
+                <a class="mob-menu__link--current link" href="./services.html"
+                  >Услуги</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="mob__bottom">
+            <ul class="mob-menu__block list">
+              <li class="mob-menu__nav">
+                <a class="mob-menu__tel link" href="tel:+78123183842"
+                  >+7 812 318 38 42</a
+                >
+              </li>
+              <li class="mob-menu__nav">
+                <a
+                  class="mob-menu__mail link"
+                  href="mailto:support@test-test.com"
+                  >support@test-test.com</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -71,7 +124,10 @@
             <svg class="serv__icon" width="64" height="64">
               <use href="./img/sprit.svg#icon-icon-1-1"></use>
             </svg>
-            <p class="serv__h3">Международный Арбитраж</p>
+            <p class="serv__h3">
+              Международный <br />
+              Арбитраж
+            </p>
             <p class="serv__txt">
               Мы предоставляем полный спектр услуг по сопровождению
               международных коммерческих арбитражных разбирательств от начала и
@@ -263,5 +319,6 @@
     </div>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

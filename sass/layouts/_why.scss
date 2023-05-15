@@ -6,38 +6,70 @@
     background-position: center;
     background-size: cover;
     max-width: 100%;
+    
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    @include desktop {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
 }
 
-.why__title {
-    padding-top: 75px;
-}
 
 .why__text {
     text-align: justify;
 
     color: var(--white-color);
-    padding-top: 47px;
+    // padding-top: 47px;
+
+    font-size: 14px;
+    padding-top: 35px;
+
+    @include desktop {
+        font-size: 20px;
+        padding-top: 47px;
+    }
 }
 
 .why__tit {
     font-weight: 700;
-    font-size: 24px;
+    // font-size: 24px;
     text-transform: uppercase;
 
     color: var(--button-color);
     padding-bottom: 20px;
+
+    font-size: 20px;
+
+    @include desktop {
+        font-size: 24px;
+    }
 }
 
 .why__det {
-    font-size: 16px;
+    // font-size: 16px;
     text-align: justify;
     padding-bottom: 20px;
 
     color: var(--txt-lit-color);
+
+    font-size: 14px;
+
+    @include desktop {
+        font-size: 16px;
+    }
 }
 
 .why__det--ac {
-    padding-bottom: 47px;
+    // padding-bottom: 47px;
+
+    padding-bottom: 20px;
+
+    @include desktop {
+        padding-bottom: 47px;
+    }
 }
 
 .why__img {
@@ -50,11 +82,26 @@
 
 .why__list {
     display: flex;
-    gap: 105px;
-    padding-top: 60px;
+    // gap: 105px;
+    // padding-top: 60px;
+
+    flex-wrap: wrap;
+    padding-top: 35px;
+    justify-content: center;
+    gap: 40px;
+
+    @include desktop {
+        gap: 105px;
+        padding-top: 60px;
+    }
 }
 
 .why__li {
     width: 300px;
-    padding-bottom: 96px;
+    
+    text-align: center;
+
+    @include desktop {
+        text-align: left;
+    }
 }

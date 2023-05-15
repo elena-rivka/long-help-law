@@ -1,19 +1,37 @@
 .header__logo {
-    margin-right: 25px;
+    margin-right: 10px;
+
+    @include tablet {
+        margin-right: 10px;
+    }
+
+    @include desktop {
+        margin-right: 15px;
+    }
 }
 
 .header__name {
     font-family: "Noto Serif";
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    // font-size: 20px;
+    font-size: 16px;
     line-height: 1.3;
 
     color: var(--white-color);
+
+    @include desktop {
+        font-size: 20px;
+    }
 }
 
 .header__dableN {
-    font-size: 12px;
+    // font-size: 12px;
+    font-size: 10px;
 
     color: var(--white-color);
+
+    @include desktop {
+        font-size: 12px;
+    }
 }

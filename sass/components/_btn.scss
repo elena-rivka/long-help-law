@@ -1,6 +1,7 @@
 .button {
     font-weight: 400;
-    font-size: 16px;
+    // font-size: 16px;
+    font-size: 15px;
     text-transform: uppercase;
 
     color: var(--white-color);
@@ -9,12 +10,20 @@
     padding: 11px 27px;
     border: none;
 
-    width: 210px;
-    height: 41px;
+    // width: 210px;
+    // height: 41px;
+    width: 173px;
+    height: 35px;
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover, &:focus {
         background-color: var(--button-hov-color);
+    }
+
+    @include desktop {
+        font-size: 16px;
+        width: 210px;
+        height: 41px;
     }
 }
